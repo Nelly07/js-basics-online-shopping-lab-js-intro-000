@@ -16,15 +16,16 @@ function addToCart(item) {
 }
 
 function viewCart() {
+  var cart.length=[];
   for (let i=0; i>cart.length; i++){
     if (cart.length===0) {
       return("Your shopping cart is empty.");
     } else {
-      if (i===1) {
+      if (cart.length===1) {
       return(`In your cart, you have ${item} at ${price}.`);
-    } else if (i===2) {
+    } else if (cart.length===2) {
       return(`In your cart, you have ${item} at ${price}, ${item} at ${price}.`);
-    } else if (i>=3){
+    } else if (cart.length>=3){
       return(`In your cart, you have ${item} at ${price}, ${item} at ${price},
         and ${item} at ${price}`);
     }
