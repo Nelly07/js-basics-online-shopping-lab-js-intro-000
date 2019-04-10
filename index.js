@@ -16,7 +16,7 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  for (let i=0; i < cart.length; i++){
+  for (let i=0; i>cart.length; i++){
     if (i===1) {
       console.log(`In your cart, you have ${item} at ${price}.`);
     } else if (i===2) {
