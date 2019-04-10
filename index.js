@@ -27,7 +27,7 @@ function viewCart() {
     } else{
       console.log("Your shopping cart is empty.");
     }
-  } return card;// write your code here
+  } return cart;// write your code here
 }
 
 function total() {
