@@ -22,7 +22,7 @@ function viewCart() {
     } else if (i===2) {
       console.log(`In your cart, you have ${item} at ${price}, ${item} at ${price}.`);
     } else if (i>=3){
-      console.log(`In your cart, you have ${item} at ${price}, ${item} at ${price}, 
+      console.log(`In your cart, you have ${item} at ${price}, ${item} at ${price},
         and ${item} at ${price}`);
     } else{
       console.log("Your shopping cart is empty.");
