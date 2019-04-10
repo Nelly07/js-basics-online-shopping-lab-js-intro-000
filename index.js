@@ -17,10 +17,15 @@ function addToCart(item) {
 
 function viewCart() {
   for (let i=0; i < cart.length; i++){
-    if (i>0) {
+    if (i===1) {
       console.log(`In your cart, you have ${item} at ${price}.`);
+    } else if (i===2) {
+      console.log(`In your cart, you have ${item} at ${price}, ${item} at ${price}.`);
+    } else if (i>=3){
+      console.log(`In your cart, you have ${item} at ${price}, ${item} at ${price}, 
+        and ${item} at ${price}`);
     } else{
-      console.log(`Your shopping cart is empty.`);
+      console.log("Your shopping cart is empty.");
     }
   } return card;// write your code here
 }
