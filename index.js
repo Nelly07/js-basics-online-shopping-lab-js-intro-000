@@ -28,8 +28,8 @@ function viewCart(){
         and ${item} at ${price}`);
     }
   }
-  } return cart;// write your code here
-}
+} return cart;// write your code here
+
 
 function total() {
   // write your code here
