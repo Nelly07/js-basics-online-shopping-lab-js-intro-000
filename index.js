@@ -26,8 +26,9 @@ function viewCart(){
       return(`In your cart, you have ${item} at ${price}, ${item} at ${price},
         and ${item} at ${price}`);
     }
-  } return cart;
-} // write your code here
+    return cart;
+  }
+// write your code here
 
 
 function total() {
