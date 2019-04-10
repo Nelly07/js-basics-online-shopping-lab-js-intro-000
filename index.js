@@ -21,14 +21,14 @@ function viewCart(){
     } else {
       if (cart.length===1) {
       return(`In your cart, you have ${item} at ${price}.`);
-    } else if (cart.length===2) {
+    } if (cart.length===2) {
       return(`In your cart, you have ${item} at ${price}, ${item} at ${price}.`);
-    } else if (cart.length>=3){
+    } if (cart.length>=3){
       return(`In your cart, you have ${item} at ${price}, ${item} at ${price},
         and ${item} at ${price}`);
     }
-  }
-} return cart;// write your code here
+  } return cart;
+} // write your code here
 
 
 function total() {
